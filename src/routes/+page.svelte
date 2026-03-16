@@ -47,7 +47,7 @@
 </script>
 
 <div
-	class=" mx-auto bg-gray-200 bg-[url(gg.jpg)] py-1 bg-blend-overlay dark:bg-gray-700"
+	class=" mx-auto bg-gray-200 py-1 bg-blend-overlay dark:bg-gray-700"
 	style=" background-size: cover; background-position: center;"
 >
 	<!-- HEADER -->
