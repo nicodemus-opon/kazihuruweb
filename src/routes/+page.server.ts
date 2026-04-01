@@ -16,7 +16,7 @@ export const load = async () => {
 	const jobs = await db
 		.select()
 		.from(stagingVacancy)
-		.where(gte(stagingVacancy.deadline, new Date().toISOString().split('T')[0]))
+		//.where(gte(stagingVacancy.deadline, new Date().toISOString().split('T')[0]))
 		.orderBy(desc(stagingVacancy.deadline));
 
 	const agencies = await db
